@@ -2,13 +2,13 @@ import React from "react"
 
 import PropTypes from 'prop-types'
 
-const Button = ({value,isLoading, backgroundColor, flavor}) => {
+const Button = ({value,isLoading, backgroundColor, size}) => {
   return <button>{value}</button>
 }
 
 Button.propTypes = {
   /**
-   * este es el comentario del valor
+   * comment value
    */
    value: PropTypes.string,
   /**
@@ -22,7 +22,7 @@ Button.propTypes = {
   /**
    * How large should the button be?
    */
-  flavor: PropTypes.oneOf(['small', 'normal', 'large']),
+  size: PropTypes.oneOf(['small', 'normal', 'large']),
 }
 Button.defaultProps = {
   value: 'soy un boton',

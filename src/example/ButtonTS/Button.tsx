@@ -2,13 +2,13 @@ import React, { FC } from "react";
 
 interface ButtonProps {
   /**
-   * este es el comentario del valor
+   * Comment here
    */
    value: string;
    /**
-    * Sabores...
+    * sizes...
     */
-  flavor?: 'custom' | 'icon' | 'disabled' | 'add-remove-remove' | 'add-remove-add' | 'tag-icon' | 'standard-dark' | 'standard-highlighted' | 'standard-normal' | 'standard-disabled' | 'slider-control' | 'icon-minimal' | 'dropdown-dark-open' | 'dropdown-dark-closed' | 'dropdown-light-open' | 'dropdown-light-closed' | 'cancel',
+  size?: 'small' | 'medium' | 'large',
   /**
    * Simple click handler
    */
